@@ -56,7 +56,7 @@ And here are the original videos 3DBuzz based their videos off of:
 [http://www.unityjumpstart.com/ProofOfConcept_1/](http://www.unityjumpstart.com/ProofOfConcept_1/)  
 
 #### Boo ####
-The Boo information is a bit disorganized and there's really no good language reference but if you take a look at these pages it will give you a basic start:    
+The Boo information is a bit disorganized and there's really no good single language reference but if you take a look at these pages it will give you a basic start:    
 
 [Boo Language Primer](http://boo.codehaus.org/Boo+Primer)  
 [Boo Language Guide](http://boo.codehaus.org/Language+Guide)  
@@ -72,7 +72,6 @@ If you upgrade the Boo plugin everything will break and you won't be able to use
 Unity3D has everything you need including the Boo language and MonoDevelop but I found it useful to be able to use the Boo interactive shell booish to test out how the language works.  
 
 [Mono Framework](http://www.go-mono.com/mono-downloads/download.html) - You need this first.  
-[Boo Programming Language](http://dist.codehaus.org/boo/distributions/)  
+[Boo Programming Language](http://dist.codehaus.org/boo/distributions/) - Now you can install the language.
 
-At first I downloaded MonoDevelop 2.8 too but it doesn't have a Boo plugin so just stuck with the MonoDevelop 2.4 that comes with Unity3D.  
-
+I tried MonoDevelop 2.8 but it doesn't have a Boo plugin so I deleted it and just used the MonoDevelop 2.4 that comes with Unity3D even for my non-Unity stuff.  
