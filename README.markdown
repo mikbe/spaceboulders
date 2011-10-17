@@ -1,9 +1,9 @@
 # Space Boulders #
-## Building a Unity3D using Boo; A Learn-Along Video Series##
+## Building a Unity3D game using Boo; A Learn-Along Video Series##
 
-Space Boulders is a Learn-Along project for experienced programmers interested in learning the [Boo programming language](http://boo.codehaus.org/) and the [Unity3D game development system](http://unity3d.com/).
+Space Boulders is a Learn-Along project for experienced programmers interested in learning the [Unity3D game development system](http://unity3d.com/) and who want to try the Boo programming language](http://boo.codehaus.org/) and .
 
-I wouldn't dare call these a tutorial since that would imply I know something. Instead I call them Learn-Along; you get to learn right along with me. 
+I wouldn't dare call this a tutorial since that would imply I know something. Instead I call them Learn-Along since you get to learn right along with me. 
 
 I'll show you my mistakes and show you what I did to correct the ones I discover (there will be ones I don't discover too). Since I'm a neophyte too don't look to these videos as a reference, just as an example of how easy it is to create a game using Unity3D.
 
@@ -75,3 +75,11 @@ Unity3D has everything you need including the Boo language and MonoDevelop but I
 [Boo Programming Language](http://dist.codehaus.org/boo/distributions/) - Now you can install the language.
 
 I tried MonoDevelop 2.8 but it doesn't have a Boo plugin so I deleted it and just used the MonoDevelop 2.4 that comes with Unity3D even for my non-Unity stuff.  
+
+## Production Notes ##
+The videos were created on a Mac but Unity3D's interface is common across both OS X and Windows platforms so you should be able to follow along with no problems.
+
+I use a local [Git](http://git-scm.com/) server for source control and a combination of [Github](http://github.com) and [Dropbox](http://db.tt/PI6kOgD) for **free** offsite backup. I would suggest you use some form of source control and have a safe offsite backup as well.  
+
+Let this tragic tale be a warning if you feel like you can get by without either:  
+[Project Zomboid Loses Months of Work ](http://projectzomboid.com/blog/index.php/2011/10/project-zomboid-burglary-statement/)
