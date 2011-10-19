@@ -1,20 +1,22 @@
 # Space Boulders #
 ## Building a Unity3D game using Boo; A Learn-Along Video Series##
 
-Space Boulders is a Learn-Along project for experienced programmers interested in learning the [Unity3D game development system](http://unity3d.com/) and who want to try the Boo programming language](http://boo.codehaus.org/) and .
+Space Boulders is a Learn-Along project for experienced programmers that are interested in learning the [Unity3D game development system](http://unity3d.com/) and who want to take a look at the Boo programming language](http://boo.codehaus.org/). 
 
-I wouldn't dare call this a tutorial since that would imply I know something. Instead I call them Learn-Along since you get to learn right along with me. 
+There's are a lot of tutorials that are aimed at artists and non-programmers in general so I wanted to try making something that was more from a programmer's perspective; I'm not going waste your time explaining what variables are or what a class is.
 
-I'll show you my mistakes and show you what I did to correct the ones I discover (there will be ones I don't discover too). Since I'm a neophyte too don't look to these videos as a reference, just as an example of how easy it is to create a game using Unity3D.
+I should stress this series isn't tutorial. That would imply I know something. Instead of a tutorial I'm calling these Learn-Alongs since you get to learn along with me as I figure out how to use Unity3D and learn some Boo.
+
+You'll see all of my mistakes and I'll show you what I did to correct the ones I discover (there will be ones I don't discover too). Since I'm a neophyte don't look to these videos as a reference, just as an example of how easy it is to create a game using Unity3D and Boo.
 
 ## Videos ##
 
 Videos are in production.  
-They will be posted on YouTube and linked here when I'm done.  
+They will be posted on YouTube and linked here as they are finished.
 
 *Prototype Phase*  
-00 Introduction  
-01 Building a Ship  
+00 [Introduction](http://www.youtube.com/watch?v=TwTzxlC5LQY)  
+01 Building a Ship - [Part 1](http://www.youtube.com/watch?v=QKsGUkPw6o0) - [Part 2](http://www.youtube.com/watch?v=Hu0VGZEUGtc)  
 02 Adding Boulders  
 03 Create a Weapon  
 04 Scoring and Lives  
@@ -69,7 +71,7 @@ The Boo information is a bit disorganized and there's really no good single lang
 If you upgrade the Boo plugin everything will break and you won't be able to use Boo with Unity3D until you completely delete all traces of Unity3D and MonoDevelop and reinstall them. So don't do it. You have been warned.  
 
 ## Optional ##
-Unity3D has everything you need including the Boo language and MonoDevelop but I found it useful to be able to use the Boo interactive shell booish to test out how the language works.  
+Unity3D has everything you need including the Boo language and MonoDevelop but I found it useful to be able to use the Boo interactive shell *booish* to test out how the language works.  
 
 [Mono Framework](http://www.go-mono.com/mono-downloads/download.html) - You need this first.  
 [Boo Programming Language](http://dist.codehaus.org/boo/distributions/) - Now you can install the language.
@@ -81,5 +83,5 @@ The videos were created on a Mac but Unity3D's interface is common across both O
 
 I use a local [Git](http://git-scm.com/) server for source control and a combination of [Github](http://github.com) and [Dropbox](http://db.tt/PI6kOgD) for **free** offsite backup. I would suggest you use some form of source control and have a safe offsite backup as well.  
 
-Let this tragic tale be a warning if you feel like you can get by without either:  
+Let this tragic tale of woe be a warning if you feel you can get by without source control **and** offsite backup:  
 [Project Zomboid Loses Months of Work ](http://projectzomboid.com/blog/index.php/2011/10/project-zomboid-burglary-statement/)
