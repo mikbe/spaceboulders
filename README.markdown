@@ -1,7 +1,7 @@
 # Space Boulders #
 ## Building a Unity3D game using Boo; A Learn-Along Video Series##
 
-Space Boulders is a Learn-Along project for experienced programmers that are interested in learning the [Unity3D game development system](http://unity3d.com/) and who want to take a look at the Boo programming language](http://boo.codehaus.org/). 
+Space Boulders is a Learn-Along project for experienced programmers that are interested in learning the [Unity3D game development system](http://unity3d.com/) and who want to take a look at the [Boo programming language](http://boo.codehaus.org/). 
 
 There's are a lot of tutorials that are aimed at artists and non-programmers in general so I wanted to try making something that was more from a programmer's perspective; I'm not going waste your time explaining what variables are or what a class is.
 
