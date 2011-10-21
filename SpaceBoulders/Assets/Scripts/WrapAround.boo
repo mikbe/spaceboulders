@@ -3,8 +3,8 @@ import UnityEngine
 class WrapAround (MonoBehaviour): 
 
 	def Update ():
-		transform.position.y = -10.5f if transform.position.y > 10.5f
-		transform.position.y = 10.5f if transform.position.y < -10.5f
+		transform.position.y = Scene.MinVertical if transform.position.y > Scene.MaxVertical
+		transform.position.y = Scene.MaxVertical if transform.position.y < Scene.MinVertical
 		
-		transform.position.x = -14.0f if transform.position.x > 14.0f
-		transform.position.x = 14.0f if transform.position.x < -14.0f
+		transform.position.x = Scene.MinHorizontal if transform.position.x > Scene.MaxHorizontal
+		transform.position.x = Scene.MaxHorizontal if transform.position.x < Scene.MinHorizontal

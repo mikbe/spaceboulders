@@ -9,7 +9,7 @@ class Boulder (MonoBehaviour):
 
 	def Start ():
 		Speed = Random.Range(MinSpeed, MaxSpeed)
-
+		rigidbody.velocity = transform.up * Speed
 		
 	def Update ():
-		transform.Translate(Vector3.up * Speed * Time.deltaTime)
+		rigidbody.velocity = rigidbody.velocity.normalized * Speed
