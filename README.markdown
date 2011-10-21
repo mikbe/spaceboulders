@@ -14,11 +14,11 @@ You'll see all of my mistakes and I'll show you what I did to correct the ones I
 Videos are in production.  
 They will be posted on YouTube and linked here as they are finished.
 
-*Prototype Phase*  
+*[Prototype Phase](http://www.youtube.com/user/mikbetk#grid/user/042DE1D2842A5C65)*  
 00 [Introduction](http://www.youtube.com/watch?v=TwTzxlC5LQY)  
-01 Building a Ship - [Part 1](http://www.youtube.com/watch?v=QKsGUkPw6o0) - [Part 2](http://www.youtube.com/watch?v=Hu0VGZEUGtc)  
-02 Adding Boulders  
-03 Create a Weapon  
+01 Player Ship - [Part 1](http://www.youtube.com/watch?v=QKsGUkPw6o0), [Part 2](http://www.youtube.com/watch?v=Hu0VGZEUGtc)  
+02 Boulders - [Part 1](http://www.youtube.com/watch?v=3VanmPhQAVM), [Part 2](http://www.youtube.com/watch?v=B7-x-YOxsWY)   
+03 Weapons  
 04 Scoring and Lives  
 05 Enemy Ships  
 06 Wrap up  
