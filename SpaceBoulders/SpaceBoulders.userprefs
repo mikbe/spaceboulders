@@ -1,9 +1,25 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Boulder.boo">
     <Files>
-      <File FileName="Assets/Scripts/Player.boo" Line="18" Column="3" />
+      <File FileName="Assets/Scripts/Player.boo" Line="14" Column="15" />
+      <File FileName="Assets/Scripts/Boulder.boo" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/WrapAround.boo" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/BoulderGenerator.boo" Line="15" Column="40" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-Boo" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Boulder.boo" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
