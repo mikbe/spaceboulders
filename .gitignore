@@ -1,0 +1,9 @@
+.DS_Store
+.bundle
+/rdoc
+/doc
+/pkg
+*.tmproj
+*.log
+/log
+**/Temp
