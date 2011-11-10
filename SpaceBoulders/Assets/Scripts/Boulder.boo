@@ -2,14 +2,23 @@ import UnityEngine
 
 class Boulder (MonoBehaviour): 
 
-	public Speed as single
-	public MinSpeed = 3.0f
-	public MaxSpeed = 6.0f
+	_speed as single
+	_minSpeed = 3.0f
+	_maxSpeed = 6.0f
 
+	callable BoulderHitEvent()
+	event BoulderHit as BoulderHitEvent
 
 	def Start ():
-		Speed = Random.Range(MinSpeed, MaxSpeed)
-		rigidbody.velocity = transform.up * Speed
+		_speed = Random.Range(_minSpeed, _maxSpeed)
+		rigidbody.velocity = transform.up * _speed
 		
 	def Update ():
-		rigidbody.velocity = rigidbody.velocity.normalized * Speed
+		pass
+				
+	def FixedUpdate ():
+		rigidbody.velocity = rigidbody.velocity.normalized * _speed
+		
+	def OnTriggerEnter(collider as Collider):
+		BoulderHit
+		Destroy(gameObject)
