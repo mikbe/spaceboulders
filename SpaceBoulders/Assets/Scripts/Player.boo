@@ -19,4 +19,5 @@ class Player (MonoBehaviour):
 		transform.Rotate(Vector3.back * _rotateSpeed * Time.deltaTime * Input.GetAxisRaw('Horizontal'))
 
 	def OnTriggerEnter(collider as Collider):
-		Debug.Log("player collide: $(collider.tag)")
+		#Debug.Log("player collide: $(collider.tag)")
+		pass

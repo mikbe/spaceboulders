@@ -2,20 +2,18 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BoulderGenerator.boo">
     <Files>
-      <File FileName="Assets/Scripts/LaserBeam.boo" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/Player.boo" Line="22" Column="20" />
+      <File FileName="Assets/Scripts/LaserBeam.boo" Line="21" Column="4" />
+      <File FileName="Assets/Scripts/Player.boo" Line="18" Column="3" />
       <File FileName="Assets/Scripts/LaserWeapon.boo" Line="25" Column="46" />
-      <File FileName="Assets/Scripts/Boulder.boo" Line="9" Column="26" />
-      <File FileName="Assets/Scripts/BoulderGenerator.boo" Line="21" Column="50" />
+      <File FileName="Assets/Scripts/Boulder.boo" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/BoulderGenerator.boo" Line="11" Column="99" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-Boo" expanded="True">
+          <Node name="Assembly-Boo" expanded="True" selected="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="BoulderGenerator.boo" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
