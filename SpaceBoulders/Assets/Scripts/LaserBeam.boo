@@ -19,6 +19,7 @@ class LaserBeam (MonoBehaviour):
 
 	def OnTriggerEnter(collider as Collider):
 		#Debug.Log("beam collide: $(collider.tag)")
+		return if collider.tag == "Player"
 		_killBeam
 		
 	def _killBeam():

@@ -9,10 +9,19 @@ class GameController (MonoBehaviour):
 	def Start ():
 		_playerSpawner = GetComponent[of PlayerSpawner]()
 		_boulderGenerator = GetComponent[of BoulderGenerator]()
+		_boulderGenerator.CreateBouldersForLevel(6)
+		_boulderGenerator.BouldersGone += _nextLevel
+
+	def _nextLevel():
+		LevelKeeper.Level++
+		_playerSpawner.SafePlayer()
 		
+		_boulderGenerator.CreateBouldersForLevel(LevelKeeper.Level)
+								
 	def Restart():
 		LivesKeeper.Lives = _startLives
 		GameOverController.GameOver = false
+		LevelKeeper.Level = 1
 		
 		_playerSpawner.Spawn()
 		_boulderGenerator.Restart()

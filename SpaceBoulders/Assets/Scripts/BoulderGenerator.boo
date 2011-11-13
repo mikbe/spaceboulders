@@ -4,6 +4,12 @@ class BoulderGenerator (MonoBehaviour):
 
 	public BoulderPrefab as Boulder
 	
+	
+	callable BouldersGoneEvent()
+	event BouldersGone as BouldersGoneEvent
+	
+	_boulderCount = 0
+	
 	_boulderSpec = [
 		{"scale" : 3, "count" : 1, "value" : 25}, 
 		{"scale" : 2, "count" : 2, "value" : 50}, 
@@ -20,17 +26,21 @@ class BoulderGenerator (MonoBehaviour):
 	def MakeBoulders(count as int):
 		for i in range(0, count):
 			x = Random.Range(Scene.MinVertical, Scene.MaxVertical)
-			y = Random.Range(Scene.MinHorizontal, Scene.MinHorizontal)
+			y = Random.Range(Scene.MinHorizontal, Scene.MaxHorizontal)
 			_makeBoulder(x, y, _defaultBoulderSize)
 
 	def Restart():
+		_boulderCount = 0
 		for boulder in GameObject.FindGameObjectsWithTag("Boulder"):
 			Destroy(boulder)
 
 	def _boulderHit(boulder as Boulder):
 		ScoreKeeper.Score += boulder.ScoreValue
+		_boulderCount--
 		_makeSmallerBoulders(boulder)
-
+				
+		BouldersGone() if _boulderCount == 0
+			
 
 	def _makeSmallerBoulders(boulder as Boulder):
 		new_size = boulder.Size + 1
@@ -42,6 +52,8 @@ class BoulderGenerator (MonoBehaviour):
 
 
 	def _makeBoulder(x as single, y as single, size as single):
+		_boulderCount++
+
 		rotation = Quaternion.Euler(0, 0, Random.Range(0, 359))
 
 		boulder as Boulder = Instantiate(BoulderPrefab, Vector3(x,y,0), rotation)

@@ -1,20 +1,27 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreKeeper.boo">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.boo">
     <Files>
-      <File FileName="Assets/Scripts/LaserBeam.boo" Line="21" Column="4" />
-      <File FileName="Assets/Scripts/Player.boo" Line="18" Column="3" />
-      <File FileName="Assets/Scripts/LaserWeapon.boo" Line="25" Column="46" />
-      <File FileName="Assets/Scripts/Boulder.boo" Line="33" Column="4" />
-      <File FileName="Assets/Scripts/BoulderGenerator.boo" Line="29" Column="73" />
-      <File FileName="Assets/Scripts/ScoreKeeper.boo" Line="18" Column="1" />
+      <File FileName="Assets/Scripts/BoulderGenerator.boo" Line="29" Column="51" />
+      <File FileName="Assets/Scripts/Boulder.boo" Line="35" Column="1" />
+      <File FileName="Assets/Scripts/LaserBeam.boo" Line="23" Column="1" />
+      <File FileName="Assets/Scripts/LaserWeapon.boo" Line="17" Column="3" />
+      <File FileName="Assets/Scripts/ScoreKeeper.boo" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/LivesKeeper.boo" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/PlayerSpawner.boo" Line="12" Column="10" />
+      <File FileName="Assets/Scripts/GameController.boo" Line="17" Column="30" />
+      <File FileName="Assets/Scripts/SafeSpawn.boo" Line="14" Column="1" />
+      <File FileName="Assets/Scripts/Scene.boo" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerDeath.boo" Line="9" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
-          <Node name="Assembly-Boo" expanded="True" selected="True">
+          <Node name="Assembly-Boo" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="GameController.boo" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

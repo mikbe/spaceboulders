@@ -50,10 +50,12 @@
      <Compile Include="Assets\Scripts\GameOverController.boo" />
      <Compile Include="Assets\Scripts\LaserBeam.boo" />
      <Compile Include="Assets\Scripts\LaserWeapon.boo" />
+     <Compile Include="Assets\Scripts\LevelKeeper.boo" />
      <Compile Include="Assets\Scripts\LivesKeeper.boo" />
      <Compile Include="Assets\Scripts\PlayerDeath.boo" />
      <Compile Include="Assets\Scripts\PlayerMovement.boo" />
      <Compile Include="Assets\Scripts\PlayerSpawner.boo" />
+     <Compile Include="Assets\Scripts\SafeSpawn.boo" />
      <Compile Include="Assets\Scripts\Scene.boo" />
      <Compile Include="Assets\Scripts\ScoreKeeper.boo" />
      <Compile Include="Assets\Scripts\WrapAround.boo" />

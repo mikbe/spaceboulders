@@ -6,6 +6,7 @@ class PlayerDeath (MonoBehaviour):
 	event Died as DeathEvent
 
 	def OnTriggerEnter(collider as Collider):
+		return if collider.tag == "Beam"
 		Died
 		Destroy(gameObject)
 		
