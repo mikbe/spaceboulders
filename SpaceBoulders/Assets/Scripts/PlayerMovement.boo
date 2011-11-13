@@ -1,6 +1,6 @@
 import UnityEngine
 
-class Player (MonoBehaviour): 
+class PlayerMovement(MonoBehaviour): 
 
 	_maxSpeed = 10.0f
 	_acceleration = 10.0f
@@ -18,6 +18,3 @@ class Player (MonoBehaviour):
 		
 		transform.Rotate(Vector3.back * _rotateSpeed * Time.deltaTime * Input.GetAxisRaw('Horizontal'))
 
-	def OnTriggerEnter(collider as Collider):
-		#Debug.Log("player collide: $(collider.tag)")
-		pass

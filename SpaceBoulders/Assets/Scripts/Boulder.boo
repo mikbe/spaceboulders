@@ -5,11 +5,12 @@ class Boulder (MonoBehaviour):
 	_speed as single
 	_minSpeed = 3.0f
 	_maxSpeed = 6.0f
-			
+	
 	callable BoulderHitEvent(boulder as Boulder)
 	event BoulderHit as BoulderHitEvent
 
-	public Size as single
+	public Size as int
+	public ScoreValue as int
 	
 	public X as single:
 		get:
@@ -30,7 +31,7 @@ class Boulder (MonoBehaviour):
 		rigidbody.velocity = rigidbody.velocity.normalized * _speed
 
 	def OnTriggerEnter(collider as Collider):
-		#Debug.Log("boulder collide: $(collider.tag)")	
+		#Debug.Log("boulder collide: $(collider.tag)")
 		BoulderHit(self)
 		Destroy(gameObject)
 
